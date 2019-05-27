@@ -283,7 +283,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="qf1-wD-Fpm" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LLf-8s-eYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-887" y="-183"/>
+            <point key="canvasLocation" x="-2358" y="-163"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aRU-hZ-8Qa">
@@ -298,7 +298,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KRH-Ii-fmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-885" y="501"/>
+            <point key="canvasLocation" x="-1393" y="-163"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="j3i-bA-V46">
@@ -313,7 +313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1c8-Md-YxM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-886" y="1297"/>
+            <point key="canvasLocation" x="-1394" y="642"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hEe-ac-atd">
@@ -328,7 +328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cHy-Oz-rG2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-62" y="501"/>
+            <point key="canvasLocation" x="-335" y="-163"/>
         </scene>
     </scenes>
 </document>
