@@ -23,6 +23,7 @@
 		A7D09E0E229CD23D0045E120 /* information.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D09E0D229CD23D0045E120 /* information.storyboard */; };
 		A7D09E10229CD24B0045E120 /* deals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D09E0F229CD24B0045E120 /* deals.storyboard */; };
 		A7D09E12229CD50E0045E120 /* loginregister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D09E11229CD50E0045E120 /* loginregister.storyboard */; };
+		A7D09E14229CE62F0045E120 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D09E13229CE62F0045E120 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		A7D09E0D229CD23D0045E120 /* information.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = information.storyboard; sourceTree = "<group>"; };
 		A7D09E0F229CD24B0045E120 /* deals.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = deals.storyboard; sourceTree = "<group>"; };
 		A7D09E11229CD50E0045E120 /* loginregister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loginregister.storyboard; sourceTree = "<group>"; };
+		A7D09E13229CE62F0045E120 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				4F14E0D8229644A100A8B02A /* BudgetPlannerTableViewCell.swift */,
 				4F1A9F28229787CB00DEE9E8 /* InformationViewController.swift */,
 				4F1A9F26229787B000DEE9E8 /* InformationTableViewCell.swift */,
+				A7D09E13229CE62F0045E120 /* PageViewController.swift */,
 			);
 			path = Savin;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F14E0AB22963F0300A8B02A /* ViewController.swift in Sources */,
+				A7D09E14229CE62F0045E120 /* PageViewController.swift in Sources */,
 				4F14E0A922963F0300A8B02A /* AppDelegate.swift in Sources */,
 				4F1A9F27229787B000DEE9E8 /* InformationTableViewCell.swift in Sources */,
 				4F14E0D9229644A100A8B02A /* BudgetPlannerTableViewCell.swift in Sources */,
