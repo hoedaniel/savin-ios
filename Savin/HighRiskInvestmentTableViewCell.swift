@@ -10,6 +10,9 @@ import UIKit
 
 class HighRiskInvestmentTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var investmentName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

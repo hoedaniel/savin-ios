@@ -1,5 +1,5 @@
 //
-//  LowRiskInvestmentTableViewCell.swift
+//  RatioTableViewCell.swift
 //  Savin
 //
 //  Created by Guildy Harvey on 28/05/19.
@@ -8,11 +8,10 @@
 
 import UIKit
 
-class LowRiskInvestmentTableViewCell: UITableViewCell {
-    
-    @IBOutlet weak var invesmentName: UILabel!
-    
+class RatioTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var ratioName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
