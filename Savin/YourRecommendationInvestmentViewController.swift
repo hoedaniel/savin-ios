@@ -12,13 +12,13 @@ class YourRecommendationInvestmentViewController: UIViewController, UITableViewD
     
     var yourRecommendationInvestment = ["Reksadana", "Saham", "Forex"]
 
-    @IBOutlet weak var lowRiskTable: UITableView!
+    @IBOutlet weak var yourRecommendationTable: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        lowRiskTable.delegate = self
-        lowRiskTable.dataSource = self
+        yourRecommendationTable.delegate = self
+        yourRecommendationTable.dataSource = self
         // Do any additional setup after loading the view.
     }
     
@@ -35,7 +35,7 @@ class YourRecommendationInvestmentViewController: UIViewController, UITableViewD
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return 150
     }
 
     /*

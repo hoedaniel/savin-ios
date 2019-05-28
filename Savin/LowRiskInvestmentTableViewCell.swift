@@ -9,6 +9,9 @@
 import UIKit
 
 class LowRiskInvestmentTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var invesmentName: UILabel!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
