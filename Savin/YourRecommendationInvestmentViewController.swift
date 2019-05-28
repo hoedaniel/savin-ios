@@ -8,14 +8,35 @@
 
 import UIKit
 
-class YourRecommendationInvestmentViewController: UIViewController {
+class YourRecommendationInvestmentViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    var yourRecommendationInvestment = ["Reksadana", "Saham", "Forex"]
 
+    @IBOutlet weak var lowRiskTable: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        lowRiskTable.delegate = self
+        lowRiskTable.dataSource = self
         // Do any additional setup after loading the view.
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return yourRecommendationInvestment.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let yourRecommendationInvestmentCell = tableView.dequeueReusableCell(withIdentifier: "YourRecommendationInvestmentReuseIdentifier", for:indexPath) as! YourRecommendationInvestmentTableViewCell
+        
+        yourRecommendationInvestmentCell.investmentName.text = yourRecommendationInvestment[indexPath.row]
+        
+        return yourRecommendationInvestmentCell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
 
     /*
     // MARK: - Navigation

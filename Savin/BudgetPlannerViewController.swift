@@ -29,13 +29,13 @@ class BudgetPlannerViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "customReuseIdentifier", for:indexPath) as! BudgetPlannerTableViewCell
+        let budgetCell = tableView.dequeueReusableCell(withIdentifier: "BudgetReuseIdentifier", for:indexPath) as! BudgetPlannerTableViewCell
         
-        cell.labelKategori.text = kategori[indexPath.row]
-        cell.labelTotal.text = harga[indexPath.row]
-        cell.labelBudget.text = budget[indexPath.row]
+        budgetCell.labelKategori.text = kategori[indexPath.row]
+        budgetCell.labelTotal.text = harga[indexPath.row]
+        budgetCell.labelBudget.text = budget[indexPath.row]
         
-        return cell
+        return budgetCell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

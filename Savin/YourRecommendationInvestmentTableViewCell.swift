@@ -10,6 +10,8 @@ import UIKit
 
 class YourRecommendationInvestmentTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var investmentName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
