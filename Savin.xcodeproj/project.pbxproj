@@ -34,6 +34,7 @@
 		A7D09E0E229CD23D0045E120 /* information.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D09E0D229CD23D0045E120 /* information.storyboard */; };
 		A7D09E10229CD24B0045E120 /* deals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D09E0F229CD24B0045E120 /* deals.storyboard */; };
 		A7D09E12229CD50E0045E120 /* loginregister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D09E11229CD50E0045E120 /* loginregister.storyboard */; };
+		A7D09E14229CE62F0045E120 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D09E13229CE62F0045E120 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		A7D09E0D229CD23D0045E120 /* information.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = information.storyboard; sourceTree = "<group>"; };
 		A7D09E0F229CD24B0045E120 /* deals.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = deals.storyboard; sourceTree = "<group>"; };
 		A7D09E11229CD50E0045E120 /* loginregister.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loginregister.storyboard; sourceTree = "<group>"; };
+		A7D09E13229CE62F0045E120 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,9 @@
 				4F14E0D8229644A100A8B02A /* BudgetPlannerTableViewCell.swift */,
 				4F1A9F28229787CB00DEE9E8 /* InformationViewController.swift */,
 				4F1A9F26229787B000DEE9E8 /* InformationTableViewCell.swift */,
+<<<<<<< HEAD
+				A7D09E13229CE62F0045E120 /* PageViewController.swift */,
+=======
 				4F1A9F40229CD6C500DEE9E8 /* InvestmentViewController.swift */,
 				4F1A9F46229CD6E100DEE9E8 /* YourRecommendationInvestmentViewController.swift */,
 				4F1A9F47229CD6E100DEE9E8 /* YourRecommendationInvestmentTableViewCell.swift */,
@@ -163,6 +168,7 @@
 				4F1A9F4F229CD70700DEE9E8 /* HighRiskInvestmentTableViewCell.swift */,
 				4F1A9F54229CE82B00DEE9E8 /* RatioViewController.swift */,
 				4F1A9F52229CE81800DEE9E8 /* RatioTableViewCell.swift */,
+>>>>>>> 2710bd42d8f705c2b6aa551a5978e1627e85721a
 			);
 			path = Savin;
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 			files = (
 				4F1A9F50229CD70700DEE9E8 /* HighRiskInvestmentViewController.swift in Sources */,
 				4F14E0AB22963F0300A8B02A /* ViewController.swift in Sources */,
+				A7D09E14229CE62F0045E120 /* PageViewController.swift in Sources */,
 				4F14E0A922963F0300A8B02A /* AppDelegate.swift in Sources */,
 				4F1A9F27229787B000DEE9E8 /* InformationTableViewCell.swift in Sources */,
 				4F1A9F48229CD6E100DEE9E8 /* YourRecommendationInvestmentViewController.swift in Sources */,
