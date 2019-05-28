@@ -27,6 +27,8 @@
 		4F1A9F4D229CD6FF00DEE9E8 /* ModerateRiskInvestmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A9F4B229CD6FF00DEE9E8 /* ModerateRiskInvestmentTableViewCell.swift */; };
 		4F1A9F50229CD70700DEE9E8 /* HighRiskInvestmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A9F4E229CD70700DEE9E8 /* HighRiskInvestmentViewController.swift */; };
 		4F1A9F51229CD70700DEE9E8 /* HighRiskInvestmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A9F4F229CD70700DEE9E8 /* HighRiskInvestmentTableViewCell.swift */; };
+		4F1A9F53229CE81800DEE9E8 /* RatioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A9F52229CE81800DEE9E8 /* RatioTableViewCell.swift */; };
+		4F1A9F55229CE82B00DEE9E8 /* RatioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A9F54229CE82B00DEE9E8 /* RatioViewController.swift */; };
 		A7D09E0A229CD1E70045E120 /* budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D09E09229CD1E70045E120 /* budget.storyboard */; };
 		A7D09E0C229CD2190045E120 /* investment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D09E0B229CD2190045E120 /* investment.storyboard */; };
 		A7D09E0E229CD23D0045E120 /* information.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D09E0D229CD23D0045E120 /* information.storyboard */; };
@@ -78,6 +80,8 @@
 		4F1A9F4B229CD6FF00DEE9E8 /* ModerateRiskInvestmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModerateRiskInvestmentTableViewCell.swift; sourceTree = "<group>"; };
 		4F1A9F4E229CD70700DEE9E8 /* HighRiskInvestmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighRiskInvestmentViewController.swift; sourceTree = "<group>"; };
 		4F1A9F4F229CD70700DEE9E8 /* HighRiskInvestmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighRiskInvestmentTableViewCell.swift; sourceTree = "<group>"; };
+		4F1A9F52229CE81800DEE9E8 /* RatioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioTableViewCell.swift; sourceTree = "<group>"; };
+		4F1A9F54229CE82B00DEE9E8 /* RatioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioViewController.swift; sourceTree = "<group>"; };
 		A7D09E09229CD1E70045E120 /* budget.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = budget.storyboard; sourceTree = "<group>"; };
 		A7D09E0B229CD2190045E120 /* investment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = investment.storyboard; sourceTree = "<group>"; };
 		A7D09E0D229CD23D0045E120 /* information.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = information.storyboard; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 				4F1A9F4B229CD6FF00DEE9E8 /* ModerateRiskInvestmentTableViewCell.swift */,
 				4F1A9F4E229CD70700DEE9E8 /* HighRiskInvestmentViewController.swift */,
 				4F1A9F4F229CD70700DEE9E8 /* HighRiskInvestmentTableViewCell.swift */,
+				4F1A9F54229CE82B00DEE9E8 /* RatioViewController.swift */,
+				4F1A9F52229CE81800DEE9E8 /* RatioTableViewCell.swift */,
 			);
 			path = Savin;
 			sourceTree = "<group>";
@@ -320,7 +326,9 @@
 				4F14E0A922963F0300A8B02A /* AppDelegate.swift in Sources */,
 				4F1A9F27229787B000DEE9E8 /* InformationTableViewCell.swift in Sources */,
 				4F1A9F48229CD6E100DEE9E8 /* YourRecommendationInvestmentViewController.swift in Sources */,
+				4F1A9F53229CE81800DEE9E8 /* RatioTableViewCell.swift in Sources */,
 				4F14E0D9229644A100A8B02A /* BudgetPlannerTableViewCell.swift in Sources */,
+				4F1A9F55229CE82B00DEE9E8 /* RatioViewController.swift in Sources */,
 				4F1A9F49229CD6E100DEE9E8 /* YourRecommendationInvestmentTableViewCell.swift in Sources */,
 				4F14E0D72296431900A8B02A /* BudgetPlannerViewController.swift in Sources */,
 				4F1A9F51229CD70700DEE9E8 /* HighRiskInvestmentTableViewCell.swift in Sources */,

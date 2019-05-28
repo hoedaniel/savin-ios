@@ -10,6 +10,8 @@ import UIKit
 
 class RatioTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var ratioName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
