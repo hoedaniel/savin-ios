@@ -44,7 +44,7 @@ class InformationViewController: UIViewController, UITableViewDelegate, UITableV
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-         let setBudgetCell = tableView.dequeueReusableCell(withIdentifier: "setBudgetReuseIdentifier", for:indexPath) as! InformationTableViewCell
+         let setBudgetCell = tableView.dequeueReusableCell(withIdentifier: "InformationReuseIdentifier", for:indexPath) as! InformationTableViewCell
         
         return setBudgetCell
     }
