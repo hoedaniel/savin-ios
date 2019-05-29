@@ -154,9 +154,7 @@
 				4F14E0D8229644A100A8B02A /* BudgetPlannerTableViewCell.swift */,
 				4F1A9F28229787CB00DEE9E8 /* InformationViewController.swift */,
 				4F1A9F26229787B000DEE9E8 /* InformationTableViewCell.swift */,
-<<<<<<< HEAD
 				A7D09E13229CE62F0045E120 /* PageViewController.swift */,
-=======
 				4F1A9F40229CD6C500DEE9E8 /* InvestmentViewController.swift */,
 				4F1A9F46229CD6E100DEE9E8 /* YourRecommendationInvestmentViewController.swift */,
 				4F1A9F47229CD6E100DEE9E8 /* YourRecommendationInvestmentTableViewCell.swift */,
@@ -168,7 +166,6 @@
 				4F1A9F4F229CD70700DEE9E8 /* HighRiskInvestmentTableViewCell.swift */,
 				4F1A9F54229CE82B00DEE9E8 /* RatioViewController.swift */,
 				4F1A9F52229CE81800DEE9E8 /* RatioTableViewCell.swift */,
->>>>>>> 2710bd42d8f705c2b6aa551a5978e1627e85721a
 			);
 			path = Savin;
 			sourceTree = "<group>";
