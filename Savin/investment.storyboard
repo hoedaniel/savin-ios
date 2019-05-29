@@ -67,20 +67,12 @@
                                     <segue destination="Gl0-ko-Mc8" kind="show" id="Vnb-cc-act"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeu-oP-Iev">
-                                <rect key="frame" x="158" y="433" width="99" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeu-oP-Iev">
+                                <rect key="frame" x="-816" y="60" width="2048" height="776"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Moderate Risk"/>
+                                <state key="normal" title="Moderate Risk" image="Moderate Risk Button"/>
                                 <connections>
                                     <segue destination="Fam-mg-Szg" kind="show" id="gig-4u-Wb3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l91-YX-PcB">
-                                <rect key="frame" x="177" y="281" width="61" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Low Risk"/>
-                                <connections>
-                                    <segue destination="x2k-7e-Lve" kind="show" id="qpl-ab-L6k"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VX-sS-Nmh">
@@ -89,6 +81,14 @@
                                 <state key="normal" title="High Risk"/>
                                 <connections>
                                     <segue destination="a7X-WO-3KI" kind="show" id="28v-Kn-aun"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l91-YX-PcB">
+                                <rect key="frame" x="64" y="183" width="330" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Low Risk" image="Low RIsk Button"/>
+                                <connections>
+                                    <segue destination="x2k-7e-Lve" kind="show" id="qpl-ab-L6k"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -443,4 +443,8 @@
             <point key="canvasLocation" x="2028" y="2089"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Low RIsk Button" width="1931" height="776"/>
+        <image name="Moderate Risk Button" width="1931" height="776"/>
+    </resources>
 </document>
